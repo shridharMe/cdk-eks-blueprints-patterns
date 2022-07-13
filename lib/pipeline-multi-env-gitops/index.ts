@@ -124,9 +124,9 @@ export default class PipelineMultiEnvGitops {
             );
 
         // Argo configuration per environment
-        const devArgoAddonConfig = createArgoAddonConfig('dev', 'git@github.com:aws-samples/eks-blueprints-workloads.git');
-        const testArgoAddonConfig = createArgoAddonConfig('test', 'git@github.com:aws-samples/eks-blueprints-workloads.git');
-        const prodArgoAddonConfig = createArgoAddonConfig('prod', 'git@github.com:aws-samples/eks-blueprints-workloads.git');
+        const devArgoAddonConfig = createArgoAddonConfig('dev', 'git@github.com:shridharMe/eks-blueprints-workloads.git');
+        const testArgoAddonConfig = createArgoAddonConfig('test', 'git@github.com:shridharMe/eks-blueprints-workloads.git');
+        const prodArgoAddonConfig = createArgoAddonConfig('prod', 'git@github.com:shridharMe/eks-blueprints-workloads.git');
 
         try {
 
